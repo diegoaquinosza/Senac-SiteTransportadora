@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    background-color: #2F2F2F;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
