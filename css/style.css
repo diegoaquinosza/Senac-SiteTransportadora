@@ -10,7 +10,6 @@ body{
     background-color: #8d8d8d;
     color: #3b3b3b;
     min-height: 100vh;
-    /* line-height: 1.6em; */
 }
 
 nav{
@@ -19,8 +18,6 @@ nav{
     justify-content: center;
     flex-wrap: wrap;
     gap: 0em 2em;
-    
-
     background-color: #2F2F2F;
 }
 
@@ -29,4 +26,13 @@ a{
     color: aliceblue;
     height: 70px;
     align-content: center;
+}
+
+button{
+    color: aliceblue;
+    background-color: #2F2F2F;
+    height: 40px;
+    width: 13em;
+    border-radius: 30px;
+    border: #F67520 2px solid;
 }
