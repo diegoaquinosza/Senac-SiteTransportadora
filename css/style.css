@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #8d8d8d;
+    background-color: #ffffff;
     color: #3b3b3b;
     min-height: 100vh;
 }
@@ -44,7 +44,7 @@ a{
   background-image: url(/img/caminhão-hero.png);
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,36 +74,132 @@ a{
     cursor: pointer;
 }
 
-.conteiner-cards {
+.servicos, frota {
+  height: 20em;
+}
+
+#conteiner-cards, conteinerfrota {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
   margin-top: 1em;
   gap: 1.5em;
 }
 
+.conteiner {
+  padding: 2em 0;
+  width: 70%;
+  margin: 0 auto;
+  max-width: 70em;
+  justify-items: center;
+}
+
+
+p{
+  margin-bottom: 0.5em;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+#icone{
+  width: 70px;
+  margin-bottom: 1.2em;
+}
+
 .card {
   background-color: #F0F0F0;
-  padding: 1em;
-  border-radius: 0.5em;
-  box-shadow: 0 3px 10px #7c7c7c;
+  padding: 2.2em;
+  border-radius: 1em;
+  box-shadow: 0 3px 10px #c5c5c5;
   transition: 0.4s;
-  height: 10em;
-  align-content: center;
+  height: 23em;
+  width: 20em;
+  margin-bottom: 1em;
 }
 
 .card:hover {
   transform: translateY(-1em);
 }
 
-
 .botao-card-saibamais-hero{
     color: #ffffff;
     font-weight: bold;
     font-size: 0.9em;
-    /* text-shadow: 0px 3px 10px #7c7c7c; */
-    background-color: #2F2F2F;
+    text-shadow: 0px 3px 10px #7c7c7c;
+    background-color: #414141;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.8em;
+}
+
+.frasecards{
+  padding: 2em 0;
+  width: 70%;
+  margin: 0 auto;
+  max-width: 70em;
+  justify-items: center;
+  text-align: center;
+  font-size: 1em;
+  color: #606060;
+}
+
+.frota {
+  background-color: #F0F0F0;
+}
+
+.conteiner2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bannercaminhao {
+  height: auto;
+  max-width: 100%;
+  width: 47em;
+}
+
+#ccardtexto {
+  height: auto;
+  max-width: 100%;
+  width: 45em;
+  justify-items: center;
+}
+
+.cardtexto {
+  padding: 2.2em;
+  height: 23em;
+  width: 414px;
+  /* margin-bottom: 1em; */
+  align-content: center;
+  /* text-align: center; */
+}
+
+.titulocardtexto {
+  color: #606060;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.textcardtexto {
+  font-size: 1.5em;
+}
+
+.botao-frota-saibamais-hero{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1em;
+    text-shadow: 0px 3px 10px #7c7c7c;
+    background-color: #F67520;
     padding: 20px 30px;
     border-radius: 30px;
     border: none;
     cursor: pointer;
+    margin-top: 1em;
 }
