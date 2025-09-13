@@ -82,7 +82,7 @@ a{
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #F0F0F0;
   padding: 1em;
   border-radius: 0.5em;
   box-shadow: 0 3px 10px #7c7c7c;
@@ -90,6 +90,11 @@ a{
   height: 10em;
   align-content: center;
 }
+
+.card:hover {
+  transform: translateY(-1em);
+}
+
 
 .botao-card-saibamais-hero{
     color: #ffffff;
