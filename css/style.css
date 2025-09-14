@@ -24,7 +24,7 @@ nav{
 a{
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.em;
+    font-size: 1.1em;
     color: #ffffff;
     height: 70px;
     align-content: center;
@@ -74,11 +74,7 @@ a{
     cursor: pointer;
 }
 
-.servicos, frota {
-  height: 20em;
-}
-
-#conteiner-cards, conteinerfrota {
+#conteiner-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
   margin-top: 1em;
@@ -87,7 +83,7 @@ a{
 
 .conteiner {
   padding: 2em 0;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   max-width: 70em;
   justify-items: center;
@@ -96,6 +92,7 @@ a{
 
 p{
   margin-bottom: 0.5em;
+  font-size: 1.2em;
 }
 
 h2{
@@ -138,7 +135,7 @@ h2{
 }
 
 .frasecards{
-  padding: 2em 0;
+  padding: 3em 0 4em;
   width: 70%;
   margin: 0 auto;
   max-width: 70em;
@@ -155,7 +152,7 @@ h2{
 .conteiner2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -202,4 +199,54 @@ h2{
     border: none;
     cursor: pointer;
     margin-top: 1em;
+}
+
+.quemsomos {
+  justify-items: center;
+}
+
+.frasecards2 {
+  padding: 5em 0 3em;
+  width: 70%;
+  margin: 0 auto;
+  max-width: 70em;
+  justify-items: center;
+  text-align: center;
+  font-size: 1em;
+  color: #606060;
+}
+
+.card2 {
+  display: flex;
+  background-color: #F0F0F0;
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 0 3px 10px #c5c5c5;
+  transition: 0.4s;
+  height: 15em;
+  width: 33.5em;
+  margin-bottom: 1.5em;
+  gap: 2em;
+  align-items: center;
+}
+
+.card2:hover {
+  transform: translateY(-0.5em);
+}
+
+#icone2 {
+  width: 100px;
+  height: 100px;
+}
+
+.conteiner3 {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 70em;
+  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  
 }
